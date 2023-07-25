@@ -1,0 +1,17 @@
+🚀 How to use Parallelize In spark
+
+
+
+With the help of Parallelize :- parallelize() method is the SparkContext's parallelize method to create a parallelized collection. This allows Spark to distribute the data across multiple nodes, instead of depending on a single node to process the data.
+I created a local data with the name of words and created rdd. As some words are small ,so we have to Normalize this words.To find the frequency of each word.
+lower() converts the words data into lower-case.
+
+🚀 Kind of operations are two in spark :- Transformation and action.
+
+In this Map and reduceByKey is a transformation and collect() is a action which shows the excecution of the data.
+
+
+
+Map :- Number of output rows = Number of input keys.
+
+reduceByKey :- Number of output = Number of distinct Keys.
